@@ -1,0 +1,65 @@
+#sub-information2{
+         margin-top: 54.8rem;
+         width:100%;
+         height:120vh;
+         background:#e6e6e6;
+         position:absolute;
+         display: flex;
+         flex-wrap: wrap;
+         justify-content: center;
+      }
+      .cardv3{
+         margin-top: 3rem;
+         max-width: 100%;
+         height:auto;   
+         display:flex;
+         background:#e6e6e6;
+         justify-content: space-between;
+         align-content: center;
+      }
+      .card4{
+         width:30%;
+         height: auto;
+         background:#e6e6e6;
+         margin-right:2rem;
+         margin-left: 4rem;
+      }
+      .card4 > img{
+         width:60%;
+         height: auto;
+      }
+      .card5{
+         width:30%;
+         height: auto;
+         background:#e6e6e6;
+         margin-right:2rem;
+         transition-duration: 0.5s;
+      }
+      .card5 > img{
+         width:60%;
+         height: auto;
+      }
+      .card6{
+         width:30%;
+         height: auto;
+         background:#e6e6e6;
+         margin-right:4rem;
+      }
+      .card6 > img{
+         width:60%;
+         height: auto;
+      }
+      .card4 > p{
+         float:left; 
+         text-align: justify; 
+         margin: 1rem;
+      }
+      .card5 > p{
+         float:left; 
+         text-align: justify; 
+         margin: 1rem;
+      }
+      .card6 > p{
+         float:left; 
+         text-align: justify; 
+         margin: 1rem;

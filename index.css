@@ -26,25 +26,27 @@
       }
       article {
          width:100%;
-      }
+      }  
       article {
-         height: 390vh;
-         background:#171d22;
+         height: 510vh;
+         background:grey;
       }
       .bg{
          display:flex;
+         background: black; 
+
       }
       .bg > img{
          height:95vh;
          width:230vh;
-         filter: blur(2px);
-         opacity: 50%;
+         filter: grayscale(100%);
+         opacity: 40%;
       }
       main {
          display: flex;
       }
       header{
-         background:#171d22;
+         background:black  ;
          display: flex;
          height:12vh;
          padding-left: 2rem;
@@ -57,20 +59,23 @@
          top: -10px;
       }
       header > h2{
-         font-family: 'Poppins', sans-serif;
+         font-family: 'Roboto', sans-serif;
+         font-size: 1.6rem;
          width:100%;
-         margin-right:1.4rem ;
+         margin-right:5rem ;
       }  
       nav{
          width:100%;
          display:flex;
          justify-content: space-between;
          align-items: center;
+         font-family: 'Roboto', sans-serif;
       }
       nav > a{
          font-size: 15px;
          text-decoration: none;
-         color:whitesmoke;;
+         color:whitesmoke;
+         font-family: 'Roboto';
       }
       .main-information{
          margin:6rem;   
@@ -147,7 +152,7 @@
       #sub-information{
          width:100%;
          height:130vh;
-         background:#F8F6F0;
+         background:#e6e6e6;
          position:absolute;
          display: flex;
          flex-wrap: wrap;
@@ -155,14 +160,14 @@
       }
       .h1-for-subinfo{
          margin-top: 4rem;
-         font-size: 2rem ;
+            font-size: 2rem ;
       }
       #card{
          margin-top: 3rem;
          max-width: 100%;
          height:auto;
          display:flex;
-         background:whitesmoke;
+         background:e6e6e6;
          justify-content: space-between;
          align-content: center;
       }
@@ -171,8 +176,8 @@
          height: auto;
          background:whitesmoke;
          margin-right:2rem;
-         margin-left: 2rem;
-         box-shadow: 0 5px 10px rgba(0, 0, 0, 0.30), 0 1px 2px rgba(0, 0, 0, 0.22);
+         margin-left: 4rem;
+         box-shadow: 0 0px 1px rgba(0, 0, 0, 0.30), 0 1px 2px rgba(0, 0, 0, 0.22);
          transition-duration: 0.5s;
       }
       .card1:hover{
@@ -189,7 +194,7 @@
          height: auto;
          background:whitesmoke;
          margin-right:2rem;
-         box-shadow: 0 5px 10px rgba(0, 0, 0, 0.30), 0 1px 2px rgba(0, 0, 0, 0.22);
+         box-shadow: 0 0px 1px rgba(0, 0, 0, 0.30), 0 1px 2px rgba(0, 0, 0, 0.22);
          transition-duration: 0.5s;
       }
       .card2 > img{
@@ -205,8 +210,8 @@
          width:30%;
          height: auto;
          background:whitesmoke;
-         margin-right:2rem;
-         box-shadow: 0 5px 10px rgba(0, 0, 0, 0.30), 0 1px 2px rgba(0, 0, 0, 0.22);
+         margin-right:4rem;
+         box-shadow: 0 0px 1px rgba(0, 0, 0, 0.30), 0 1px 2px rgba(0, 0, 0, 0.22);
          transition-duration: 0.5s;
       }
       .card3 > img{
@@ -237,22 +242,40 @@
          margin-top: 5rem;
          width:100%;
          height:130vh;
-         background:#e6e6e6;
+         background:#F8F6F0;
          position:absolute;
          display: flex;
          flex-wrap: wrap;
          justify-content: center;
       }
-      #cardv2{
+      .cardv2{
          margin-top: 3rem;
          max-width: 100%;
          height:auto;
          display:flex;
-         background:whitesmoke;
+         background:#F8F6F0;
          justify-content: space-between;
          align-content: center;
       }
-      
+      #sub-information2{
+         margin-top: 54.5rem;
+         width:100%;
+         height:130vh;
+         background:#F8F6F0;
+         position:absolute;
+         display: flex;
+         flex-wrap: wrap;
+         justify-content: center;
+      }
+      .cardv3{
+         margin-top: 3rem;
+         max-width: 100%;
+         height:auto;
+         display:flex;
+         background:#F8F6F0;
+         justify-content: space-between;
+         align-content: center;
+      }
 
 
 
