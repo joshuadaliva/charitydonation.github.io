@@ -37,6 +37,7 @@
       .bg > img{
          height:95vh;
          width:230vh;
+         filter: blur(2px);
          opacity: 50%;
       }
       main {
@@ -143,11 +144,14 @@
          -webkit-transition: all 0.5s;
          transition: all 0.5s;
       }
-      .sub-information{
+      #sub-information{
          width:100%;
-         height:100vh;
-         background:whitesmoke;
+         height:130vh;
+         background:#F8F6F0;
          position:absolute;
+         display: flex;
+         flex-wrap: wrap;
+         justify-content: center;
       }
       .h1-for-subinfo{
          margin-top: 4rem;
@@ -155,31 +159,100 @@
       }
       #card{
          margin-top: 3rem;
-         width:100%;
-         height:50vh;
+         max-width: 100%;
+         height:auto;
          display:flex;
-         background:yellow;
-         justify-content: center;
+         background:whitesmoke;
+         justify-content: space-between;
+         align-content: center;
       }
       .card1{
-         width:100%;
-         height: 20vh;
-         background:red;
+         width:30%;
+         height: auto;
+         background:whitesmoke;
          margin-right:2rem;
          margin-left: 2rem;
+         box-shadow: 0 5px 10px rgba(0, 0, 0, 0.30), 0 1px 2px rgba(0, 0, 0, 0.22);
+         transition-duration: 0.5s;
+      }
+      .card1:hover{
+         width:31%;
+         box-shadow: 0 8px 15px rgba(0, 0, 0, 0.30), 0 2px 4px rgba(0, 0, 0, 0.22);
+      }
+      .card1 > img{
+         width:100%;
+         height: auto;
+         box-shadow:0px 2px #EC9706;
       }
       .card2{
-         width:100%;
-         height: 20vh;
-         background:red;
+         width:30%;
+         height: auto;
+         background:whitesmoke;
          margin-right:2rem;
+         box-shadow: 0 5px 10px rgba(0, 0, 0, 0.30), 0 1px 2px rgba(0, 0, 0, 0.22);
+         transition-duration: 0.5s;
+      }
+      .card2 > img{
+         width:100%;
+         height: auto;
+         box-shadow:0px 2px #EC9706;
+      }
+      .card2:hover{
+         width:31%;
+         box-shadow: 0 8px 15px rgba(0, 0, 0, 0.30), 0 2px 4px rgba(0, 0, 0, 0.22);
       }
       .card3{
-         width:100%;
-         height: 20vh;
-         background:red;
+         width:30%;
+         height: auto;
+         background:whitesmoke;
          margin-right:2rem;
+         box-shadow: 0 5px 10px rgba(0, 0, 0, 0.30), 0 1px 2px rgba(0, 0, 0, 0.22);
+         transition-duration: 0.5s;
       }
+      .card3 > img{
+         width:100%;
+         height: auto;
+         box-shadow:0px 2px #EC9706;
+      }
+      .card3:hover{
+         width:31%;
+         box-shadow: 0 8px 15px rgba(0, 0, 0, 0.30), 0 2px 4px rgba(0, 0, 0, 0.22);
+      }
+      .card1 > p{
+         float:left; 
+         text-align: justify; 
+         margin: 1rem;
+      }
+      .card2 > p{
+         float:left; 
+         text-align: justify; 
+         margin: 1rem;
+      }
+      .card3 > p{
+         float:left; 
+         text-align: justify; 
+         margin: 1rem;
+      }
+      #sub-information1{
+         margin-top: 5rem;
+         width:100%;
+         height:130vh;
+         background:#e6e6e6;
+         position:absolute;
+         display: flex;
+         flex-wrap: wrap;
+         justify-content: center;
+      }
+      #cardv2{
+         margin-top: 3rem;
+         max-width: 100%;
+         height:auto;
+         display:flex;
+         background:whitesmoke;
+         justify-content: space-between;
+         align-content: center;
+      }
+      
 
 
 
