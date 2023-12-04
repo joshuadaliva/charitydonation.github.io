@@ -1,10 +1,10 @@
 /*media query for mobile*/
 @media screen and (max-width: 575px) {
       main {
-         display: block;
+         display: flex;
       }
       .bg > img{
-         max-width:100%;
+         max-width:100px;
          height:auto;
          opacity:30%;
       }
@@ -23,7 +23,13 @@
       nav > a{
          font-size:2px;
       }
-
+      article{
+         height:430vh;
+      }
+      .sub-information{
+         display: flex;
+         flex-wrap: wrap;
+      }
 
 
 

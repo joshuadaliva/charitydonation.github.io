@@ -1,3 +1,43 @@
-footer{
-	background:black;
-}
+      footer {
+         position:relative;
+         background: orange;
+         margin: 0;
+         padding: 0;
+         top:140rem;
+         height:auto;
+         width: 100%;
+         background:latte;
+
+      }
+      .footer-body{
+      	margin-bottom: 40px;
+      }
+      .footer-body:after{
+         content:"";
+         display:block;
+         clear: both;
+      }
+      .footer-body > div{
+      		color:white;
+      		float: left;
+      		padding:20px;
+      }
+      .footer-body > div:first-child{
+      	font-size: 150%;
+      	width: 35%;
+      	text-align: center;
+      }
+      .footer-body > div:last-child{
+      	width: 65%;
+      }
+      .footer-body ul {
+      	list-style-type: none;
+      	margin:0px;
+      	padding:0px;
+      	text-align:center;
+      }
+      .footer-body li > a{
+      	color:white;
+      	text-decoration: none;
+      	margin-bottom: 7px;
+      }

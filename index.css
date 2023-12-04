@@ -1,34 +1,28 @@
 * {
          box-sizing: border-box;
       }
-         /* make footer stick to bottom */
       html {
-         position:relative;
-         min-height: 100%;
+         height: auto;
+         margin:0;
+         padding:0;
          -ms-text-size-adjust:100%;
-         -webkit-text-size-adjust:100%
+         -webkit-text-size-adjust:100%;
       }
-      body {
-         margin: 0 0 10vh; /* bottom = footer height */
+      body { 
+         height: auto;
+         display: flex;
+         margin:0;
+         padding:0;
+         flex-direction: column;
+         margin: 0; /* bottom = footer height */   
          font-family: 'Poppins', sans-serif;
       }
-      footer {
-         position: absolute;
-         left: 0;
-         bottom: 0;
-         width: 100%;
-      }
       /* style components */
-      footer {
-         background: whitesmoke;
-         height: 50vh;
-         padding: 5px;
-      }
       article {
-         width:100%;
+         max-width:100%;
       }  
       article {
-         height: 510vh;
+         height: auto;
          background:grey;
       }
       .bg{
@@ -37,8 +31,8 @@
 
       }
       .bg > img{
-         height:95vh;
-         width:230vh;
+         height:auto;
+         width:100%;
          filter: grayscale(100%);
          opacity: 40%;
       }
@@ -48,7 +42,7 @@
       header{
          background:black  ;
          display: flex;
-         height:12vh;
+         height:auto;
          padding-left: 2rem;
          color:whitesmoke;
       }
@@ -163,7 +157,8 @@
             font-size: 2rem ;
       }
       #card{
-         margin-top: 3rem;
+         padding-top: 1rem;
+         padding-bottom: 4rem;
          max-width: 100%;
          height:auto;
          display:flex;
@@ -239,40 +234,21 @@
          margin: 1rem;
       }
       #sub-information1{
-         margin-top: 5rem;
+         margin-top: auto;
          width:100%;
-         height:130vh;
-         background:#F8F6F0;
-         position:absolute;
+         height:auto;
+         background:white;
          display: flex;
          flex-wrap: wrap;
          justify-content: center;
       }
       .cardv2{
-         margin-top: 3rem;
+         padding-top: 1rem;
+         padding-bottom: 4rem;
          max-width: 100%;
          height:auto;
          display:flex;
-         background:#F8F6F0;
-         justify-content: space-between;
-         align-content: center;
-      }
-      #sub-information2{
-         margin-top: 54.5rem;
-         width:100%;
-         height:130vh;
-         background:#F8F6F0;
-         position:absolute;
-         display: flex;
-         flex-wrap: wrap;
-         justify-content: center;
-      }
-      .cardv3{
-         margin-top: 3rem;
-         max-width: 100%;
-         height:auto;
-         display:flex;
-         background:#F8F6F0;
+         background:white;
          justify-content: space-between;
          align-content: center;
       }

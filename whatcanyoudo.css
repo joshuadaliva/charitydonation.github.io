@@ -1,12 +1,11 @@
 #sub-information2{
-         margin-top: 54.8rem;
-         width:100%;
-         height:120vh;
+         margin-top: auto;
+         max-width:100%;
+         height:auto;
          background:#e6e6e6;
-         position:absolute;
          display: flex;
          flex-wrap: wrap;
-         justify-content: center;
+         justify-content:center;
       }
       .cardv3{
          margin-top: 3rem;
