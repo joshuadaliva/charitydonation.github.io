@@ -3,34 +3,231 @@
       main {
          display: flex;
       }
+      .bg{
+         display:flex;
+         background: black; 
+
+      }
       .bg > img{
-         max-width:100px;
-         height:auto;
-         opacity:30%;
+         height:40vh;
+         width:100%;
+         filter: grayscale(100%);
+         opacity: 40%;
       }
       header{
-         height:8vh;
+         height:auto;
       }
       header > h2{
-         font-size:1.3rem;
+         font-size:15px;
+
          width:100%;
-         position: ab;
-         top:0.2rem;
+         top:1.2rem;
       }
       .logo{
-         padding-bottom:10px;
+         padding-bottom:1rem;
       }
       nav > a{
          font-size:2px;
       }
       article{
-         height:430vh;
+         height: auto;
+         background:grey;
+
       }
-      .sub-information{
-         display: flex;
+      .main-information{
+         margin:1rem;   
+         top:2rem;
+         display:flex;
          flex-wrap: wrap;
       }
+      .main-information > h1{
+         font-family: 'Poppins', sans-serif;
+         color:white;
+         position:relative;
+         margin-top: 4rem;
+         margin-left: 1.5rem;
+         font-size:2rem;
+         text-align: center;
+      }
+      .main-information > p{
+         font-family: 'Poppins', sans-serif;
+         color: aliceblue;
+         visibility: hidden;
+      }
+      #signin{
+         font-family: 'Poppins', sans-serif;
+         background:none;
+         position: relative;
+         bottom: 10rem;
+         margin-left: 2.5rem;
+         outline: none;
+         border:none;
+         color:white;
+         font-size:1.2rem;
+      }
+      #donate{
+         font-family: 'Poppins', sans-serif;
+         border-radius: 10px;
+         background:orange;
+         border:none;
+         width:10rem;
+         height:45px;
+      }
+      .btn {
+         width: 7rem;
+         height: 2.5em;
+         margin: 0.5em;
+         background: #EC9706;
+         color: black;
+         border: none;
+         border-radius: 2px;
+         font-size: 1rem;
+         font-weight: bold;
+         cursor: pointer;
+         position: relative;
+         bottom: 10rem;
+         z-index: 1;
+         overflow: hidden;
+      }     
 
+      .btn:hover {
+         color: black;
+      }
+
+      .btn:after {
+         content: "";
+         background: #FCAE1E;
+         position: absolute;
+         z-index: -1;
+         left: -20%;
+         right: -20%;
+         top: 0;
+         bottom: 0;
+         transform: skewX(-45deg) scale(0, 1);
+         box-shadow: 5px 5px solid black;
+         transition: all 0.5s;
+      }
+
+      .btn:hover:after {
+         transform: skewX(-45deg) scale(1, 1);
+         -webkit-transition: all 0.5s;
+         transition: all 0.5s;
+      }
+
+      #sub-information{
+         width:200px;
+         display:flex;
+         flex-wrap: wrap;
+         height:auto;
+         position: relative;
+         background:#e6e6e6;
+      }
+      .h1-for-subinfo{
+         margin-top: 4rem;
+         font-size: 2rem ;
+      }
+      .description{
+         visibility: hidden;
+      }
+      #card{
+         padding-top: 1rem;
+         padding-bottom: 4rem;
+         max-width: 100%;
+         height:auto;
+         display:flex;
+         background:e6e6e6;
+         justify-content: space-between;
+         align-content: center;
+      }
+      .card1{
+         width:30%;
+         height: auto;
+         background:whitesmoke;
+         margin-right:2rem;
+         margin-left: 4rem;
+         box-shadow: 0 0px 1px rgba(0, 0, 0, 0.30), 0 1px 2px rgba(0, 0, 0, 0.22);
+         transition-duration: 0.5s;
+      }
+      .card1:hover{
+         width:31%;
+         box-shadow: 0 8px 15px rgba(0, 0, 0, 0.30), 0 2px 4px rgba(0, 0, 0, 0.22);
+      }
+      .card1 > img{
+         width:100%;
+         height: auto;
+         box-shadow:0px 2px #EC9706;
+      }
+      .card1 > p {
+         visibility: hidden;
+      }
+      .card2{
+         width:30%;
+         height: auto;
+         background:whitesmoke;
+         margin-right:2rem;
+         box-shadow: 0 0px 1px rgba(0, 0, 0, 0.30), 0 1px 2px rgba(0, 0, 0, 0.22);
+         transition-duration: 0.5s;
+      }
+      .card2 > img{
+         width:100%;
+         height: auto;
+         box-shadow:0px 2px #EC9706;
+      }
+      .card2:hover{
+         width:31%;
+         box-shadow: 0 8px 15px rgba(0, 0, 0, 0.30), 0 2px 4px rgba(0, 0, 0, 0.22);
+      }
+      .card3{
+         width:30%;
+         height: auto;
+         background:whitesmoke;
+         margin-right:4rem;
+         box-shadow: 0 0px 1px rgba(0, 0, 0, 0.30), 0 1px 2px rgba(0, 0, 0, 0.22);
+         transition-duration: 0.5s;
+      }
+      .card3 > img{
+         width:100%;
+         height: auto;
+         box-shadow:0px 2px #EC9706;
+      }
+      .card3:hover{
+         width:31%;
+         box-shadow: 0 8px 15px rgba(0, 0, 0, 0.30), 0 2px 4px rgba(0, 0, 0, 0.22);
+      }
+      .card1 > p{
+         float:left; 
+         text-align: justify; 
+         margin: 1rem;
+      }
+      .card2 > p{
+         float:left; 
+         text-align: justify; 
+         margin: 1rem;
+      }
+      .card3 > p{
+         float:left; 
+         text-align: justify; 
+         margin: 1rem;
+      }
+      #sub-information1{
+         margin-top: auto;
+         width:100%;
+         height:auto;
+         background:white;
+         display: flex;
+         flex-wrap: wrap;
+         justify-content: center;
+      }
+      .cardv2{
+         padding-top: 1rem;
+         padding-bottom: 4rem;
+         max-width: 100%;
+         height:auto;
+         display:flex;
+         background:white;
+         justify-content: space-between;
+         align-content: center;
+      }
 
 
 
