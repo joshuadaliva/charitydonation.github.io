@@ -1,0 +1,38 @@
+body{
+	height: auto;
+    display: flex;
+    margin:0;
+    padding:0;
+    flex-direction: column;
+    margin: 0;
+    background: white;
+}
+.login-box{
+	margin-top: 2rem;
+	padding: 1rem;
+	max-width: 25rem;
+	height: 80vh;
+	box-shadow: 0 0 20px rgba(0,0,0,0.12);
+	border-radius: 10px;
+}
+.login-box > p {
+	line-height: 0;
+	color: #333333;
+	font-size: 12px;
+}
+.login-box > h1 {
+	font-family: verdana;
+}
+.email{
+	margin-top: 1rem;
+	width: 50%	;
+	height: 30px;
+	outline:none;
+	color:#333333;
+}
+.password{
+	width: 50%	;
+	height: 30px;
+	outline:none;
+	color:#333333;
+}
