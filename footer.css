@@ -1,11 +1,11 @@
       footer {
          position:relative;
-         background: orange;
+         background: black;
          margin: 0;
          padding: 0;
          top:140rem;
          height:auto;
-         color: black;
+         color: white;
          width: 100%;
          background:latte;
 
@@ -19,7 +19,7 @@
          clear: both;
       }
       .footer-body > div{
-      		color:black;
+      		color:white;
       		float: left;
       		padding:20px;
       }
@@ -29,16 +29,26 @@
       	text-align: center;
       }
       .footer-body > div:last-child{
-      	width: 65%;
+      	width: 50%;
       }
       .footer-body ul {
       	list-style-type: none;
-      	margin:0px;
+      	margin:0px; 
       	padding:0px;
       	text-align:center;
       }
       .footer-body li > a{
-      	color:black;
+      	color:white;
       	text-decoration: none;
       	margin-bottom: 7px;
+      }
+      .logo > img{
+         max-width: 100px;
+         margin-left: -10rem;
+         height: auto;
+      }
+      .linksocial{
+         text-decoration: none;
+         color: rgb(187, 198, 207);
+         line-height: 2rem;
       }

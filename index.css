@@ -54,23 +54,31 @@
       }
       header > h2{
          font-family: 'Roboto', sans-serif;
-         font-size: 1.6rem;
+         font-size: 1.5rem;
+         white-space: nowrap;
          width:100%;
          margin-right:5rem ;
       }  
       nav{
          width:100%;
-         display:flex;
-         justify-content: space-between;
+         display: flex;
+         float: center;
+         justify-content:center;
          align-items: center;
-         font-family: 'Roboto', sans-serif;
       }
       nav > a{
          font-size: 15px;
+         margin-right:3rem;
          text-decoration: none;
          color:whitesmoke;
-         font-family: 'Roboto';
+         font-family: 'Roboto', sans-serif;
+         font-weight: bold;
+         transition-duration: 0.5s;
       }
+      nav > a:hover{
+         color: goldenrod;
+      }
+
       .main-information{
          margin:6rem;   
          position:absolute;
@@ -78,12 +86,11 @@
 
       }
       .main-information > h1{
-         font-family: 'Poppins', sans-serif;
          color:white;
          font-size:3rem;
       }
       .main-information > p{
-         font-family: 'Poppins', sans-serif;
+         font-family: 'Roboto', sans-serif;
          color: aliceblue; 
       }
       #signin{
@@ -94,7 +101,12 @@
          margin-right:4rem;
          margin-left: 4rem;
          color:white;
-         font-size:1.2rem;
+         font-size:1.3rem;
+         transition-duration: 0.5;
+      }
+      #signin:hover{
+         cursor: pointer;
+         color: goldenrod;
       }
       #donate{
          font-family: 'Poppins', sans-serif;
@@ -113,7 +125,6 @@
          border: none;
          border-radius: 5px;
          font-size: 1rem;
-         font-weight: bold;
          cursor: pointer;
          position: relative;
          z-index: 1;
@@ -154,7 +165,7 @@
       }
       .h1-for-subinfo{
          margin-top: 4rem;
-            font-size: 2rem ;
+         font-size: 2rem ;
       }
       #card{
          padding-top: 1rem;
