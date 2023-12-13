@@ -2,7 +2,7 @@
          margin-top: auto;
          max-width:100%;
          height:auto;
-         background:#e6e6e6;
+         background:white;
          display: flex;
          flex-wrap: wrap;
          justify-content:center;
@@ -12,14 +12,14 @@
          max-width: 100%;
          height:auto;   
          display:flex;
-         background:#e6e6e6;
+         background:white;
          justify-content: space-between;
          align-content: center;
       }
       .card4{
          width:30%;
          height: auto;
-         background:#e6e6e6;
+         background:white;
          margin-right:2rem;
          margin-left: 4rem;
       }
@@ -30,7 +30,7 @@
       .card5{
          width:30%;
          height: auto;
-         background:#e6e6e6;
+         background:white;
          margin-right:2rem;
          transition-duration: 0.5s;
       }
@@ -41,7 +41,7 @@
       .card6{
          width:30%;
          height: auto;
-         background:#e6e6e6;
+         background:white;
          margin-right:4rem;
       }
       .card6 > img{

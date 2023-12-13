@@ -7,15 +7,30 @@
 	<link rel="stylesheet" type="text/css" href="css/signin.css">
 </head>
 <body>
-	<center>
-		<div class="login-box">
-			<h1>Sign In</h1>
-			<p>Login To The Dashboard</p>
-			<form>
-				<input type="text" name="email" placeholder="Username" class="email"><br><br>
-				<input type="password" name="email" placeholder="Password" class="password">
-			</form>
-		</div>
-	</center>
+	<div id="login-page">
+  		<div class="login">
+    		<h2 class="login-title">Login</h2>
+    			<p class="notice">Log In To Donate</p>
+    				<form class="form-login">
+      					<label for="email">E-mail</label>
+      				<div class="input-email">
+        				<input type="email" name="email" placeholder="Enter your e-mail" required>
+      					</div>
+      				<label for="password">Password</label>
+      					<div class="input-password">
+        					<input type="password" name="password" placeholder="Enter your password" required>
+      						</div><br>
+      							<div class="checkbox">
+        					<label for="remember">
+          					<input type="checkbox" name="remember" class="checkbox">Remember me
+        				</label>
+      				</div>
+      				<button type="submit">Sign in</button>
+    		</form>
+      		<a href="#">Forgot your password?</a>
+  		</div>
+  			<div class="background">
+  				</div>
+</div>
 </body>
 </html>

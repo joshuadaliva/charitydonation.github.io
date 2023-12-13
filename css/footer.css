@@ -52,3 +52,6 @@
          color: rgb(187, 198, 207);
          line-height: 2rem;
       }
+      .linksocial:hover {
+         color: goldenrod;
+      }
