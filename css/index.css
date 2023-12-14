@@ -44,26 +44,22 @@
       header{
          background:black  ;
          display: flex;
-         height:auto;
+         height:70px;
          padding-left: 2rem;
          color:whitesmoke;
+         justify-content: center;
+         align-items: center;
       }
       .logo{
-         width: 4rem;
-         height: 4rem;
-         position:relative;
-         top: -10px;
+         margin-left: 1.6rem;
+         width: 12rem;
+         height: 170px;
+         margin-right: 28rem;
       }
-      header > h2{
-         font-size: 1.5rem;
-         white-space: nowrap;
-         width:100%;
-         margin-right:10rem ;
-      }  
       nav{
          width:100%;
          display: flex;
-         float: center;
+         float: right;
          justify-content:center;
          align-items: center;
       }
@@ -78,6 +74,13 @@
       }
       nav > a:hover{
          color: goldenrod;
+      }
+      nav > input{
+         width: 12rem;
+         padding: 10px;
+         height: 25px;
+         border-radius: 30px;
+         border: none;
       }
 
       .main-information{
@@ -124,7 +127,7 @@
          width: 10em;
          height: 3em;
          margin: 0.5em;
-         background: #EC9706;
+         background: darkorange;
          color: black;
          border: none;
          border-radius: 5px;
