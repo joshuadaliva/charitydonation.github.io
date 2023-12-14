@@ -1,4 +1,5 @@
 /*media query for mobile*/
+/* working in responsive design in mobile */
 @media screen and (max-width: 575px) {
       main {
          display: flex;
