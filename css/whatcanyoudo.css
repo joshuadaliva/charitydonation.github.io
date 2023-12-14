@@ -10,7 +10,7 @@
       .cardv3{
          margin-top: 3rem;
          max-width: 100%;
-         height:auto;   
+         height:80vh;   
          display:flex;
          background:white;
          justify-content: space-between;
