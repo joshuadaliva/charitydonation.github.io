@@ -158,7 +158,10 @@
          -webkit-transition: all 0.5s;
          transition: all 0.5s;
       }
-
+      .donate{
+         text-decoration: none;
+         color: black;
+      }
       /* this is the page on scroll styles (our work, stories and add what you can do)  */
       #sub-information{
          width:100%;
