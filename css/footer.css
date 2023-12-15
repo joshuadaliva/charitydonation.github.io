@@ -47,6 +47,8 @@ ul{
   margin-left: -2.6rem;
 }
 .footer-col ul li a{
+   scroll-behavior: smooth;
+   text-align: justify;
   font-size: 16px;
   text-transform: capitalize;
   color: #ffffff;
@@ -60,23 +62,24 @@ ul{
   color: darkorange;
   padding-bottom: 4px;
 }
-.footer-col .social-links a{
+.about{
+   margin-right: 5rem;
+}
+.footer-col .social-links img{
+   border: none;
   display: inline-block;
   height: 40px;
   width: 40px;
-  background-color: rgba(255,255,255,0.2);
   margin:0 10px 10px 0;
-  text-align: center;
   line-height: 40px;
   border-radius: 50%;
-  color: #ffffff;
   transition: all 0.5s ease;
+  cursor: pointer;
 }
-.footer-col .social-links a:hover{
-  color: #24262b;
-  background-color: #ffffff;
+.footer-col .social-links img:hover{
+  background-color: black;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.30), 0 2px 4px rgba(0, 0, 0, 0.22);
 }
-
 /*responsive*/
 @media(max-width: 767px){
   .footer-col{
